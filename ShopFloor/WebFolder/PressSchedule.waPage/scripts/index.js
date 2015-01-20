@@ -13,7 +13,7 @@ WAF.onAfterInit = function onAfterInit() {// @lock
 	{// @endlock
 		//		var costCtrId = '417';
 //		alert(costCtrId.getValue());
-//		alert(jobFormId.getValue());
+//		alert(jobFormId.value());
 		sources.productionSchedules.query('CostCenter == :1 AND JobSequence == :2', costCtrId, jobFormId,
 //		sources.productionSchedules.query('JobSequence == :1', jobFormId,
 		{
